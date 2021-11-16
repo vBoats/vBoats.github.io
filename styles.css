@@ -1,5 +1,6 @@
 .row-container {
   display: flex;
+  background-color: "#FF5D81";
   align-items: center;
   justify-content: center;
   height: 200px;
