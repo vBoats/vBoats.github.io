@@ -1,0 +1,13 @@
+.row-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+
+}
+.row-container > div {
+  margin: 10px
+  width: 80px;
+  font-size: 24;
+  font-family: monospace;
+}
