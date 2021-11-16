@@ -1,21 +1,8 @@
-.row-container {
-  display: flex;
-  background-color: "#FF5D81";
-  align-items: center;
-  justify-content: center;
-  height: 10%;
-  width: 100%;
 
-}
-.row-container > div {
-  margin: 10px;
-  font-size: 24;
-  font-family: monospace;
-}
 .main {
   width: 100%;
   height: 100vh;
   position: relative;
   overflow: hidden;
-  background: linear-gradient(to right, #9C27B0, #8ECDFF);
+  background: linear-gradient(down, #9C27B0, #8ECDFF);
 }
