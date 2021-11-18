@@ -1,24 +1,40 @@
-
 .main {
-  width: 100%;
-  height: 100vh;
-  background-color: #FF5289;
-
-}
-.links {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 5%;
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(to right, #9c27b0, #8ecdff);
+  flex-direction: column;
 }
-.links > div {
-  text-align: center;
-  width: 100%;
-  height: 100%;
-  margin: 10px;
-  font-family: monospace;
-  background-color: #000000;
+
+
+.row {
+  flex: 1;
+  display: flex;
+  background-color: #000000
+}
+.page{
+  flex: 10;
+}
+
+.title-of-page {
+  flex: 6;
   color: #FFFFFF;
-  font-size: 10;
+}
+.link-1 {
+  flex: 1;
+  color: #FFFFFF;
+}
+.link-2 {
+  flex: 1;
+  color: #FFFFFF;
+}
+.link-3 {
+  flex: 1;
+  color: #FFFFFF;
+}
+.link-4 {
+  flex: 1;
+  color: #FFFFFF;
+  
+
 }
