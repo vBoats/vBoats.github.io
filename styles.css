@@ -10,7 +10,8 @@
 .row {
   flex: 1;
   display: flex;
-  background-color: #000000
+  background-color: #000000;
+  align-items: center;
 }
 .page{
   flex: 10;
@@ -35,6 +36,6 @@
 .link-4 {
   flex: 1;
   color: #FFFFFF;
-  
+
 
 }
