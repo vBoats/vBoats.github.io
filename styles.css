@@ -11,7 +11,15 @@
   background: linear-gradient(to right, #9c27b0, #8ecdff);
   flex-direction: column;
 }
+.title-of-page {
+  flex: 1;
+  text-align: center;
 
+}
+h1 {
+  color: #FFFFFF;
+  font-size: 25;
+}
 
 .row {
   flex: 1;
@@ -22,26 +30,12 @@
   flex: 10;
 }
 
-.title-of-page {
+.title-of-website {
   padding-left: 10px;
   flex: 72;
   color: #FFFFFF;
 }
-.link-1 {
+.link {
   flex: 7;
   color: #FFFFFF;
-}
-.link-2 {
-  flex: 7;
-  color: #FFFFFF;
-}
-.link-3 {
-  flex: 7;
-  color: #FFFFFF;
-}
-.link-4 {
-  flex: 7;
-  color: #FFFFFF;
-
-
 }
