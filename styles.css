@@ -6,28 +6,35 @@
 
 .main {
   display: flex;
-  height: 100vh;
+  height: 1440px;
   width: 100vw;
   background: linear-gradient(to right, #9c27b0, #8ecdff);
   flex-direction: column;
 }
 .title-of-page {
-  flex: 1;
+  flex: 12;
   text-align: center;
 
 }
 h1 {
   color: #FFFFFF;
-  font-size: 25;
+  font-size: 30px;
+}
+h2 {
+  color: #000000;
+  font-size: 20px;
+}
+h3 {
+  font-size: 18px;
 }
 
 .row {
-  flex: 1;
+  flex: 8;
   display: flex;
   align-items: center;
 }
 .page{
-  flex: 10;
+  flex: 180;
 }
 
 .title-of-website {
@@ -38,4 +45,10 @@ h1 {
 .link {
   flex: 7;
   color: #FFFFFF;
+}
+
+.question {
+  margin-top: 25px;
+  justify-content: center;
+  text-align: center;
 }
