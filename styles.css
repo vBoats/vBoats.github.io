@@ -8,7 +8,7 @@
   display: flex;
   height: 1440px;
   width: 100vw;
-  background: linear-gradient(to right, #9c27b0, #8ecdff);
+  background: #FFFFFF;
   flex-direction: column;
 }
 .title-of-page {
